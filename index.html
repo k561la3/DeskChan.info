@@ -1,19 +1,18 @@
-<!DOCTYPE html5>
+﻿<!DOCTYPE html5>
 <html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <title>DeskChan</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="bootstrap.min.css"  crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
-    <link rel="stylesheet" href="bootstrap-theme.min.css" crossorigin="anonymous">
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous">
-
     </script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -23,8 +22,8 @@
         #draggable { width: 250px; height: 450px; padding: 0.5em; }
     </style>
 </head>
-<body>
-    <div class="container">
+<body  class = "dragborder" style ="width:inherit; height: inherit">
+    <div class="container" style ="width: 90vw">
         <div class="row text-center">
             <h1>DeskChan</h1>
             <h4>Твой персональный цифровой ассистент</h4>
@@ -66,12 +65,11 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-                <div  style="z-index: 1000" id='draggable' class='ui-widget-content'> <img src='shocked.png'>
-                <p>Меня можно перетаскивать :3</p>
-                </div>
+                <div  style="z-index: 1000; position: absolute" id='draggable' class='ui-widget-content'> <img src='shocked.png'>
+                              </div>
             </div>
             <div class="col-md-4">
-                <h3 style="padding-top: 50px">Ссылки</h3>
+                <h3 style="padding-top: 100px">Ссылки</h3>
                 <ul>
                     <li><a href="https://t.me/DeskChan">DeskChan - Новости (канал в Telegram)</a></li>
                     <li><a href="https://t.me/joinchat/AAAAAEBBxiF3wloJeZxZOQ">DeskChan - Флудилка (канал в Telegram)</a></li>
